@@ -14,7 +14,7 @@ This project involves programming a KUKA LBR iiwa 7 R800 robotic arm to position
 ## Repository Contents
 
 - `main.m`: Main script for executing the entire project workflow, including kinematics, trajectory planning, and verification.
-- `functions/`: Directory containing helper functions for kinematics, Jacobian calculations, and more.
+- `functions`: Directory containing helper functions for kinematics, Jacobian calculations, and more.
   - `forward_kinematics.m`: Function to compute the forward kinematics using DH parameters.
   - `DH_transform.m`: Function to compute individual transformation matrices based on DH parameters.
   - Additional helper functions for Jacobian calculation, inverse kinematics, and trajectory generation.
